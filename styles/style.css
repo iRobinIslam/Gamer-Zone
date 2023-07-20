@@ -181,4 +181,64 @@ nav {
     background-color: #4ec5f7;
   }
   
-  /* ---------- Header Section End ---------- */
+  /* main section here */
+  .gamer {
+    background-color: rgba(255, 66, 165, 0.03);
+    padding: 100px 0;
+  }
+  
+  .we-are-gamer-img,
+  .we-are-gamer-content {
+    width: 50%;
+  }
+  
+  .we-are-gamer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: right;
+  }
+  
+  .we-are-gamer-content h3 {
+    margin-bottom: 20px;
+  }
+  
+  .we-are-gamer-content button {
+    margin: 20px 0;
+  }
+  
+  .we-are-gamer-img img {
+    width: 100%;
+  }
+  
+  .play-instantly {
+    display: flex;
+    align-items: center;
+  }
+  
+  .play-instantly-content,
+  .play-instantly-img,
+  .play-games-img,
+  .play-games-content {
+    width: 50%;
+  }
+  
+  .play-instantly-content {
+    text-align: right;
+    padding-right: 130px;
+  }
+  
+  .main-image {
+    width: 100%;
+  }
+  
+  .down-image img {
+    width: 40%;
+  }
+  
+  .down-image {
+    margin-top: -30%;
+    margin-left: -15%;
+  }
+
+  
