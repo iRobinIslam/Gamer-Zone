@@ -226,3 +226,35 @@ nav {
     margin-top: -30%;
     margin-left: 65%;
   }
+
+  .play-instantly {
+    display: flex;
+    align-items: center;
+  }
+  
+  .play-instantly-content,
+  .play-instantly-img,
+  .play-games-img,
+  .play-games-content {
+    width: 50%;
+  }
+  
+  .play-instantly-content {
+    text-align: right;
+    padding-right: 130px;
+  }
+  
+  .main-image {
+    width: 100%;
+  }
+  
+  .down-image img {
+    width: 40%;
+  }
+  
+  .down-image {
+    margin-top: -30%;
+    margin-left: -15%;
+  }
+
+  
