@@ -372,3 +372,203 @@ footer {
   font-weight: 500;
   text-align: center;
 }
+
+/* responsive section here */
+/* Max Width 991.98px */
+@media only screen and (max-width: 991.98px) {
+  nav {
+    box-shadow: 0 0 0 0;
+  }
+
+  .banner,
+  .nav-bar,
+  .nav-bar ul,
+  .we-are-gamer,
+  .play-instantly,
+  .careers-section {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .banner-content,
+  .banner img,
+  .we-are-gamer-img,
+  .we-are-gamer-content,
+  .play-instantly-content,
+  .play-games-content,
+  .careers-content,
+  .careers-image,
+  .play-instantly-img,
+  .play-games-img {
+    width: 100%;
+  }
+
+  .main-banner {
+    background-image: none;
+  }
+
+  .banner-content {
+    background-image: url(../images/Rectangle\ 14.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 10% 25%;
+  }
+
+  .banner-button {
+    padding: 10px 0;
+    gap: 0.5rem;
+  }
+
+  .gamer {
+    background-color: #ffffff;
+  }
+
+  .play-instantly-img {
+    padding: 20px 40px 20px 100px;
+  }
+
+  .play-games-img {
+    padding: 50px 130px 20px 40px;
+  }
+
+  .online-game p {
+    padding-bottom: 50px;
+  }
+
+  .banner,
+  .play-games {
+    flex-direction: column-reverse;
+  }
+
+  .banner {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .we-are-gamer,
+  .online-game,
+  .play-instantly h3,
+  .play-instantly p,
+  .play-games {
+    text-align: center;
+  }
+
+  .play-instantly-content {
+    padding-right: 0;
+  }
+  .play-games-content {
+    padding-left: 0;
+  }
+
+  .online-game-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .button-list {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .btn-bottom {
+    row-gap: 30px;
+    padding: 2px 6px;
+    font-size: 14px;
+  }
+
+  .copyright-text {
+    flex-direction: column;
+  }
+
+  .policy-menu {
+    padding-bottom: 30px;
+  }
+}
+
+/*  Max Width 767.98px Start */
+@media only screen and (max-width: 767.98px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+  .banner-content {
+    padding: 20% 10%;
+  }
+
+  .banner-content h1 {
+    font-size: 60px;
+  }
+
+  .banner-content h2 {
+    font-size: 36px;
+  }
+
+  .banner-content h6 {
+    font-size: 15px;
+  }
+
+  .online-game-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .play-instantly-img {
+    padding: 20px 15px 0px 80px;
+  }
+
+  .play-games-img {
+    padding: 49px 80px 0 15px;
+  }
+
+  .play-games {
+    padding: 100px 20px;
+  }
+
+  .careers-content-left h6,
+  .careers-content-right h6 {
+    font-size: 12px;
+  }
+
+  .btn-1,
+  .btn-2 {
+    font-size: 12px;
+    padding: 10px 15px;
+    border-radius: 48px;
+  }
+
+  .btn-bottom {
+    gap: 2px;
+    padding: 2px 5px;
+    font-size: 10px;
+  }
+
+  .btn-bottom img {
+    height: 20px;
+  }
+
+  .nine-button {
+    padding: 40px 0;
+  }
+
+  .footer-area > ul,
+  .footer-icon > ul {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .policy-menu > ul {
+    grid-template-columns: repeat(2, auto);
+  }
+  .policy-menu p {
+    padding: 30px;
+  }
+}
+
+/* Max Width 576.98px Start */
+@media only screen and (max-width: 576.98px) {
+  .btn-bottom {
+    font-size: 9px;
+  }
+}
