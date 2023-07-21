@@ -227,6 +227,71 @@ nav {
     margin-left: 65%;
   }
 
+  .online-game {
+    padding: 100px 0;
+  }
+  
+  .online-game > h3,
+  .online-game > p {
+    text-align: center;
+  }
+  
+  .online-game p {
+    padding: 20px 20px 30px;
+  }
+  
+  .online-game-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .card-img img {
+    width: 100%;
+    border: 1px solid #ffffff;
+  }
+  
+  .card-img {
+    position: relative;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: calc(100% - 5px);
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px solid var(--primary-color);
+    border-radius: 18px;
+  }
+  
+  .card-img:hover .image-overlay {
+    opacity: 1;
+  }
+  
+  .overlay-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    color: #ffffff;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .overlay-content p {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+  }
+
   .play-instantly {
     display: flex;
     align-items: center;
