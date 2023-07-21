@@ -287,3 +287,88 @@ nav {
     border: 2px solid var(--primary-color);
     color: var(--primary-color);
   }
+
+/* footer section here */
+footer {
+  background-color: #0b0223;
+  padding: 100px 0;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-logo h2 {
+  color: #ffffff;
+  font-size: 45px;
+}
+
+.footer-area > ul {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.footer-area > ul li,
+.footer-icon > ul li,
+.policy-menu > ul li {
+  list-style: none;
+}
+
+.footer-area > ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-icon > ul {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-icon > ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.policy-menu > ul {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 0 20px;
+}
+
+.policy-menu > ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.copyright-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.footer-area .copyright-text p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
